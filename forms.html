@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>
+				LOG IN INTERFACE
+							</title>
+<body>
+		<center>
+		<h1 title="Welcome">
+					<font color="Purple" face="times new roman" size="10">
+										<b><i>
+												Welcome		</i></b> 
+																</font>
+		<body style="background-color:tomato;">
+																		</h1>
+		
+		
+		<form action="Home.html" method="get" autocomplete="on">
+		<fieldset>
+		First Name:<br>
+			<legend>Personal Information</legend>
+		<input type="text" name="firstname" value="Mickey"><br>
+		Last Name:<br>
+		<input type="password" name="lastname" required /><br><br>
+		<input type="submit" value="Submit"><br><br>
+		<input type="reset" value="Reset"><br><br>
+		</fieldset>
+		
+		<input type="radio" name="gender" value="male" checked>Male<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="other">Other<br><br>
+		<input type="submit" value="Submit"><br><br>
+		
+		<input type="checkbox" name="vehicle1" value="Bike">I have a bike<br>
+		<input type="checkbox" name="vehicle2" value="Car">I have a car<br><br>
+		
+		<label for="phone">Enter your phone number:</label>
+		<input type="tel" id="phone" name="phone" pattern="[a-z]{1-15}"><br><br>
+		
+		<label for="appt">Select a time:</label>
+		<input type="time" id="appt" name="appt">
+		<input type="submit" value="Submit">
+		</form>
+		
+		Birthmonth:
+		<select name="Birthmonth" id="month">
+		<option value="1">January</option>
+		<option value="2">February</option>
+		<option value="3">March</option>
+		<option value="4">April</option>
+		<option value="5">May</option>
+		<option value="6">June</option>
+		<option value="7">July</option>
+		<option value="8">August</option>
+		<option value="9">September</option>
+		<option value="10">October</option>
+		<option value="11">November</option>
+		<option value="12">December</option>
+		</select>
+		
+		<select name="cars" id="cars">
+		<optgroup label="Swedish Cars">
+			<option value="Volvo">Volvo</option>
+			<option value="saab">Saab</option>
+		</optgroup>
+		<optgroup label="German Cars">
+			<option value="mercedes">Mercedes</option>
+			<option value="audi">Audi</option>
+		</optgroup>
+		</select>
+		
+		<input list="browser" TXTbrowser="browser">
+		<datalist>
+			<option value="Internet Explorer">
+			<option value="Chrome">
+			<option value="Firefox">
+			<option value="Safari">
+		</center>
+	<button type="button" onclick="alert('Hello World')">Click Me!</button>
+	
+	<label for="birthday">Birthday:</label>
+	<input type="date" id="birthday" name="birthday">
+	<input type="submit" value="Submit"><br><br><br>
+	
+	
+	
+	
+	
+	
+	<input type="text" name="Course" value="Computer Engineering"/>
+	
+	
+</html>
+</head>
